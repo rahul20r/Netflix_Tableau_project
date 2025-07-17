@@ -1,56 +1,70 @@
 # Netflix Tableau project
 ![Netflix Logo](https://github.com/rahul20r/Netflix_Tableau_project)
 
-# Objective
-To analyze and visualize the distribution, trends, and characteristics of movies and TV shows available on Netflix, using key attributes like release year, genre, country, ratings, and type.
+# 📊 Netflix Content Analysis Dashboard
 
-# Overview
-The dashboard provides a comprehensive view of Netflix content with the following key insights:
+## 🎯 Objective
+To analyze and visualize the distribution, trends, and characteristics of Netflix's movie and TV show library, using key attributes such as release year, genre, country, rating, and type.
 
-Content Type:
+---
 
-68.42% of the content is Movies, while 31.58% is TV Shows.
+## 🔍 Overview
 
-Top Countries:
+This Tableau dashboard presents key insights about Netflix's content:
 
-The United States leads in the number of movies and TV shows available, followed by other regions based on the intensity on the heat map.
+### ➤ Content Type Distribution
+- **Movies**: 68.42% (4,265 titles)
+- **TV Shows**: 31.58% (1,969 titles)
 
-Ratings Distribution:
+### ➤ Top Countries by Content Volume
+- The **United States** has the highest number of titles.
+- Other countries follow with lower but significant contributions (visualized via heat map).
 
-The most common ratings are TV-MA, TV-14, and TV-PG.
+### ➤ Ratings Breakdown (Top Categories)
+- **TV-MA**: 2,027
+- **TV-14**: 1,698
+- **TV-PG**: 701
+- Other ratings include R, PG-13, NR, PG, etc.
 
-Top Genres:
+### ➤ Top 10 Genres
+1. Documentaries (299)
+2. Stand-Up Comedy (273)
+3. Dramas, International Movies (248)
+4. Dramas, Independent Movies (186)
+5. Comedies, Dramas, International (174)
+6. Kids’ TV (159)
+7. Documentaries, International (150)
+8. Children & Family Movies (129)
+9. Comedies, International (120)
+10. Children & Family Movies (120)
 
-Leading genres include Documentaries, Stand-Up Comedy, and Dramas (International & Independent).
+### ➤ Content Added Over Time
+- Significant growth in content from **2015 to 2019**.
+- Peak around **2018–2019**, followed by a decline in **2020**.
 
-Yearly Trends:
+### ➤ Sample Title Highlight
+**"13 Reasons Why"**
+- **Type**: TV Show
+- **Duration**: 3 Seasons
+- **Release Year**: 2019
+- **Date Added**: 2019
+- **Rating**: TV-MA
+- **Genre**: Crime TV Shows, TV Dramas, TV Mysteries
+- **Description**: After a teenage girl’s perplexing suicide, a classmate receives a series of tapes that unravel the story.
 
-A significant rise in content additions can be observed from 2015 onwards, peaking around 2018–2019, with a drop in 2020.
+---
 
-Example Title:
+## ✅ Solution and Applications
 
-Selected: "13 Reasons Why", categorized as a TV Show with 3 seasons, released and added in 2019, rated TV-MA, in the Crime/Drama/Mystery genre.
+This dashboard provides actionable insights for:
 
-# Solution
-This dashboard supports multiple objectives:
+- **Content Strategy**: Identify high-performing genres and types to guide content acquisition.
+- **Market Analysis**: Understand regional content availability and dominance.
+- **User Preferences**: Leverage genre and rating popularity for personalized recommendations.
+- **Growth Analysis**: Monitor platform content growth and saturation trends.
+- **Dynamic Exploration**: Filter by title, type, or year for tailored analysis.
 
-1.Content Strategy:
+---
 
-Helps Netflix or content analysts determine which genres and content types are most prevalent and trending.
-
-2.Market Analysis:
-
-Provides geographic insights into where most content originates or is available, aiding regional content strategy.
-
-3.User Preference Insight:
-
-Ratings and genre distribution help tailor recommendations and marketing.
-
-4.Trend Tracking:
-
-Visualization of content growth over time informs platform growth and possible market saturation or shifts.
-
-5.Filtering Capability:
-
-Allows dynamic analysis by selecting titles, types, or specific years for more detailed exploration.
+📌 *Built with Tableau Desktop Public Edition.*
 
